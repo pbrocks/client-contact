@@ -1,0 +1,89 @@
+
+#client-connect > div > h2,
+#client-connect > div > h3,
+#client-connect > div > h4,
+#client-connect > div > form > h2 {
+	text-align: center;
+}
+#client-connect-message,
+#client-connect-header,
+#client-connect-logo,
+#client-connect > div > img {
+	width: 95%;
+	margin: 0 auto;
+}
+#client-connect > div > form  {
+	width: 100%;
+	font-size: 1rem;
+	color: #87c7ba;
+}
+input {
+	font-size: .8rem;
+}
+.text {
+	border:1px solid #abc;
+	background-color: #fff;
+	position: relative;
+	z-index: 2222;
+}
+.logo-area {
+	background-color: #fff;
+	width: 100%;
+	padding: 1rem 0;
+}
+.logo-area img {
+	width: 88%;
+	margin: 0 auto;
+	padding: 2rem;
+}
+.logo-area:hover {
+	cursor: pointer;
+}
+.block {
+	position:relative;
+	text-align: center;
+	z-index: 222;
+	border: 1px solid #87c7ba;
+	background:#deefec;
+}
+button {
+	top: 2px;
+	left: 2px;
+	padding: 2px 4px;
+}
+
+#slide {
+	position:relative;
+	height: 0;
+	width: 100%;
+	transition:         height 500ms ease;
+	-moz-transition:    height 500ms ease;
+	-ms-transition:     height 500ms ease;
+	-o-transition:      height 500ms ease;
+	-webkit-transition: height 500ms ease;
+}
+
+#slide.open {
+	height: 14rem;
+}
+.header {
+	position:relative;
+	height: 3rem;
+}
+.header:hover {
+	cursor: pointer;
+}
+#sections {
+	padding:22px;
+	background: #fff;
+	border:1px solid #ccc;
+	border-top:0px;
+}
+
+section {
+	display:none;
+}
+
+section:first-child {
+	display:block;
+}
